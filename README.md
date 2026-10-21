@@ -1,0 +1,2 @@
+# wazuh-homelab
+SOC homelab
