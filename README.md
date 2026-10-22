@@ -7,7 +7,7 @@ A small Security Operations Center (SOC) lab using UTM, Ubuntu 22.04, and Wazuh.
 - Enrolled a Linux endpoint agent.
 - Simulated and investigated four attack types: brute-force logins, privilege escalation, account creation, and file tampering.
 - Wrote analyst notes mapping each alert to its meaning and severity.
-- Tuned detection: enabled real-time File Integrity Monitoring on `/etc` (the default was a 12-hour scan).
+- Tuned detection: enabled real-time File Integrity Monitoring.
 
 ## Skills
 Log analysis · SIEM operations · alert triage · MITRE ATT&CK · Linux administration · detection tuning
