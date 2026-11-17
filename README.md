@@ -2,6 +2,13 @@
 
 A small Security Operations Center (SOC) lab built using **UTM**, **Ubuntu 22.04**, and **Wazuh**. One VM runs the Wazuh SIEM; a second runs a Wazuh agent as a monitored endpoint. Both VMs run in UTM on a shared network. The agent ships logs and alerts to the SIEM; the dashboard is viewed from the browser. I generated real security events on the endpoint and investigated each one in the dashboard, writing an analyst note for every detection.
 
+## Architecture
+Network diagram
+- wazuh-siem - Ubuntu 22.04.5, Wazuh manager + indexer + dashboard — 192.168.64.4
+- endpoint - Ubuntu 22.04.5, Wazuh agent — 192.168.64.5
+- Both VMs run in UTM on a shared network. The agent ships logs and alerts to the SIEM; the dashboard is viewed from the Mac browser.
+
+
 ## What I did
 
 - Installed and configured a Wazuh all-in-one SIEM.
